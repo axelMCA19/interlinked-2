@@ -1,0 +1,32 @@
+body{
+    background-image: url(cambioC.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0); /* Cambia el valor de opacidad (0 a 1) */
+}
+
+.current_password{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    
+}
+
+.new_password{
+    color: black;
+    font-weight: 600;
+}
+
+.confirm_password{
+    color: white;
+    font-weight: 600;
+}
+
+h2{
+    color: black;
+    font-weight: 900;
+}

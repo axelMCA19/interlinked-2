@@ -1,0 +1,64 @@
+/* Estilo para los resultados coincidentes */
+.resultado-coincidente {
+    color: red;
+    font-weight: bold;
+}
+
+
+body{
+    background-image: url(Riberalta.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 600;
+}
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff00;
+}
+table th, table td {
+    text-align: left;
+    padding: 8px;
+    border-radius: 5px;
+}
+table th {
+    background-color: #f2f2f2;
+}
+table tbody tr {
+    color: white;
+    font-weight: 600;
+    background: #252525b7;
+}
+table tbody td {
+    padding: 8px;
+}

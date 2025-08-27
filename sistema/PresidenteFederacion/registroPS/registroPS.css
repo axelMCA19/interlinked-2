@@ -1,0 +1,39 @@
+body{
+    background-image: url(Riberalta.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.card {
+    background-color: rgba(0, 0, 0, 0.5); /* Cambia el valor de opacidad (0 a 1) */
+    border: 1px solid black;
+    padding: 8px;
+}
+
+label{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+::placeholder{
+    color: black;
+    font-weight: 600;
+}
+
+h3{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.parrafo{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.interlineado{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}

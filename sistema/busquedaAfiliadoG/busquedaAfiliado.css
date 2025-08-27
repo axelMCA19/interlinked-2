@@ -1,0 +1,104 @@
+/* Estilo para los resultados coincidentes */
+#resultados {
+    color: red;
+    font-weight: bold;
+}
+
+
+body{
+    background-image: url(Riberalta.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f052;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #0000007a;
+}
+table th, table td {
+    text-align: center;
+    padding: 8px;
+    border-radius: 5px;
+}
+table th {
+    background-color: #000000b9;
+    color: white;
+    border: 2px solid rgb(0, 255, 234);
+    border-radius: 3px;
+}
+table tbody tr {
+    color: white;
+    font-weight: 600;
+    background: #000000b9;
+    border: 1px solid rgb(0, 255, 234);
+}
+/* table tbody td {
+    padding: 8px;
+} */
+
+h1{
+    color: white;
+    background-color: #000000b9;
+    border-radius: 12px;
+    padding: 10px;
+    border-bottom: 4px solid rgb(0, 255, 234);
+    font-weight: 700;
+
+}
+.parrafo{
+    color: white;
+    background-color: #000000b9;
+    border-radius: 12px;
+    padding: 8px;
+    border-bottom: 3px solid rgb(0, 255, 234);
+    font-weight: 500;
+}
+
+label{
+    color: white;
+    background-color: #000000b9;
+    border-bottom: 2px solid rgb(0, 255, 234);
+    border-radius: 2px;
+}
+.total_registros{
+    color: white;
+    background-color: #000000b9;
+    border-radius: 12px;
+    padding: 8px;
+    border-bottom: 3px solid rgb(0, 255, 234);
+}
+
+#search{
+    border-bottom: 2px solid rgb(0, 255, 234);
+    border-radius: 2px;
+}
+input{
+    border: 1px solid rgb(0, 102, 185);
+    padding: 4px;
+    margin-top: 6px;
+    
+}
+::placeholder{
+    color: black;
+}

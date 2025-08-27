@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta etiquetas obligatorias -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio de sesión PF</title>
+  <!-- Estilos CSS -->
+  <link rel="stylesheet" type="text/css" href="login/estilo/style.css">
+  <!-- Ícono -->
+  <link rel="shortcut icon" href="../logo.ico">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8380155752707218"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+        
+  <div class="wrapper">
+    <!-- Formulario de inicio de sesión -->
+    <div class="form-wrapper sign-in">
+      <form action="login.php" method="post">
+        <h2>Seción PF</h2>
+        <!-- Campo para ingresar número de carnet -->
+        <div class="input-group">
+          <input 
+                type="text"
+                class="form-control"
+                name="carnet"
+                id="carnet"
+                aria-describedby="helpId"
+                placeholder=""
+                required>
+          <label for="">Número de carnet:</label>
+        </div>
+
+        <!-- Campo para ingresar contraseña -->
+        <div class="input-group">
+          <input 
+                type="password"
+                class="form-control"
+                name="password"
+                id="password"
+                placeholder=""
+                required>
+          <label for="">Contraseña</label>
+        </div>
+
+        <!-- Opción para recordar sesión -->
+        <div class="remember">
+          <label><input type="checkbox"> Recordarme</label>
+        </div>
+
+        <!-- Botón para iniciar sesión -->
+        <button type="submit">Iniciar sesión</button>
+
+        <!-- Enlace para registrarse si no tiene cuenta -->
+        <div class="signUp-link">
+          <p>¿Aún no tienes cuenta? <a href="registro.php" class="signUpBtn-link">Registrarme</a></p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Script externo -->
+  <script src="././login/scrip/script.js"></script>
+  <!-- Código por helpme_coder -->
+</body>
+</html>
+
+

@@ -1,0 +1,28 @@
+body{
+    background: rgb(8, 13, 19);
+}
+.card{
+    background: rgba(3, 29, 51, 0.699);
+    color: white;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+.form-control{
+    background: rgba(254, 255, 255, 0.5);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.interlineado{
+    color: white;
+    font-weight: 800;
+}
+
+label{
+    color: rgb(255, 255, 255);
+}
+
+h3{
+    font-weight: 800;
+    color: rgb(209, 233, 255);
+}

@@ -1,0 +1,64 @@
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.ruta-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.ruta-titulo {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.mapa-wrapper {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.ruta-tarifa {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #0077cc;
+}
+
+.ruta-container p {
+    text-align: center;
+    color: #ff4d4d;
+    font-size: 1rem;
+}
+
+/* Responsivo: ajustar para pantallas pequeñas */
+@media screen and (max-width: 480px) {
+    .ruta-container {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .ruta-titulo {
+        font-size: 1.5rem;
+    }
+
+    .mapa-wrapper {
+        height: 200px;
+    }
+
+    .ruta-tarifa {
+        font-size: 1rem;
+    }
+}

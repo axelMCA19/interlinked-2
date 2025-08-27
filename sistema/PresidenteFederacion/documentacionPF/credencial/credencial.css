@@ -1,0 +1,33 @@
+body{
+    background-image: url(Riberalta.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.card{
+    background: rgba(29, 23, 23, 0.637);
+    color: white;
+    border: 2px solid black;
+    border-radius: 13px;
+}
+
+h1{
+    font-weight: 800;
+    background: rgba(255, 255, 255, 0.61);
+    color: black;
+    border-radius: 9px;
+}
+label{
+    font-weight: 700;
+    border-bottom: 2px solid black;
+    background: rgba(233, 233, 233, 0.651);
+    padding: 3px;
+    color: black;
+    border-radius: 6px;
+}
+
+input{
+    color: red;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta etiquetas para la codificación, compatibilidad y escala del viewport -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login de usuario</title>
+  <!-- Enlace al archivo de estilos CSS -->
+  <link rel="stylesheet" type="text/css" href="login/estilo/style.css">
+  <!-- Ícono de acceso directo para la página -->
+  <link rel="shortcut icon" href="../logo.ico">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8380155752707218"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+        
+  <div class="wrapper">
+    <!-- Contenedor principal para el formulario de inicio de sesión -->
+    <div class="form-wrapper sign-in">
+      <!-- Formulario que envía los datos a 'login.php' mediante el método POST -->
+      <form action="login.php" method="post">
+        <h2>Seción afiliados</h2>
+        <!-- Grupo de entrada para el carnet de identidad -->
+        <div class="input-group">
+          <input 
+                type="carnet"
+                class="form-control"
+                name="carnet"
+                id="carnet"
+                aria-describedby="helpId"
+                placeholder=""
+                required>
+          <label for="">Carnet de identidad</label>
+        </div>
+
+        <!-- Grupo de entrada para la contraseña -->
+        <div class="input-group">
+          <input 
+                type="password"
+                class="form-control"
+                name="password"
+                id="password"
+                placeholder=""
+                required>
+          <label for="">Contraseña</label>
+        </div>
+
+        <!-- Checkbox para recordar al usuario -->
+        <div class="remember">
+          <label><input type="checkbox"> Recordarme</label>
+        </div>
+
+        <!-- Botón para enviar el formulario -->
+        <button type="submit">Iniciar sesión</button>
+
+        <!-- Enlace para registrarse si aún no tiene cuenta -->
+        <div class="signUp-link">
+          <p>¿Aún no estas afiliado? <a href="registro.php" class="signUpBtn-link">Afiliarme</a></p>
+        </div>
+        <div class="signUp-link">
+          <p>¿Eres P.S? <a href="Presidentes/login.html" class="signUpBtn-link">Inicio P.S</a></p>
+        </div>
+        <div class="signUp-link">
+          <p>¿Eres P.F? <a href="PresidenteFederacion/login.html" class="signUpBtn-link">Inicio P.F</a></p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Script JavaScript para funcionalidades adicionales -->
+  <script src="././login/scrip/script.js"></script>
+  <!-- Code by helpme_coder -->
+   
+</body>
+</html>
